@@ -38,4 +38,5 @@ while(end < n) {
   }
 }
 
-res
+for(i in as.list(res))
+  print(i)
